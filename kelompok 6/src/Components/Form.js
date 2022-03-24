@@ -42,7 +42,7 @@ class Form extends Component {
 
                 <form onSubmit={this.handleSubmit}>
                     <h1>Login</h1>
-                     <input type="text" value={this.state.firstName} onChange={this.firsthandler} placeholder="UserName" /><br />
+                     <input type="text" value={this.state.firstName} onChange={this.firsthandler} placeholder="Email" /><br />
                 
                      <input type="password" value={this.state.password} onChange={this.passwordhandler} placeholder="Password" /><br />
                    
