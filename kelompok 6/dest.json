@@ -1,0 +1,14 @@
+{
+  "destination": [
+    {
+      "id": 1,
+      "namawisata": "Kawah Ijen",
+      "daerah": "Kemiren - Banyuwangi"
+    },
+    {
+      "id": 2,
+      "namawisata": "Pantai Boom",
+      "daerah": "Kampungmandar - Banyuwangi"
+    }
+  ]
+}

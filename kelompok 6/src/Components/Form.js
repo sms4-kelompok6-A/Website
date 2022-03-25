@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import './CSS/todo.css'
+import './CSS/form.css'
 
 class Form extends Component {
     constructor(props) {
         super(props)
 
         this.state = {
-            firstName: "",
+            email: "",
             password: "",        
         }
         this.handleSubmit=this.handleSubmit.bind(this)
@@ -14,7 +14,7 @@ class Form extends Component {
 
     firsthandler = (event) => {
         this.setState({
-            firstName: event.target.value
+            email: event.target.value
         })
    
     }
@@ -25,13 +25,11 @@ class Form extends Component {
     }
     
     handleSubmit = (event) => {
-        alert(`${this.state.firstName}  Login Berhasil !`)
+        alert(`${this.state.email}  Login Berhasil !`)
         console.log(this.state);
         this.setState({
-            firstName: "",
-        
+            email: "",
             password: '',
-          
         })
      event.preventDefault()
         
@@ -41,12 +39,11 @@ class Form extends Component {
             <div>
 
                 <form onSubmit={this.handleSubmit}>
-                    <h1>Login</h1>
-                     <input type="text" value={this.state.firstName} onChange={this.firsthandler} placeholder="Email" /><br />
-                
+                    <h3>Selamat Datang<br/>
+                    Silahkan masukkan email dan password</h3>
+                     <input type="text" value={this.state.email} onChange={this.firsthandler} placeholder="Email" /><br />
                      <input type="password" value={this.state.password} onChange={this.passwordhandler} placeholder="Password" /><br />
-                   
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Masuk" />
                 </form>
 
             </div>
