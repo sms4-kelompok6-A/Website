@@ -1,18 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Form from './Components/Form'
+import React, { Component } from 'react'
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+} from "react-router-dom";
+import { NavbarComponent } from './components'
+import {Home} from './pages'
 
-
-function App() {
-  return (
-
-    <div className="App">
-      <Form />
-
-    </div>
-
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+          <NavbarComponent />
+          <main>
+            <Switch>
+              <Route  path="/" component={Home} exact/>
+            </Switch>
+          </main>
+      </BrowserRouter>
+    )
+  }
 }
-
-export default App;

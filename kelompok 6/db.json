@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Destination"
+    },
+    {
+      "id": 2,
+      "nama": "Event"
+    },
+    {
+      "id": 3,
+      "nama": "Staycation"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Djawatan",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "djawatan.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Destination"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Kawah ijen",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "kawahijen.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Destination"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Pantai Boom",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "pantaiboom.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Destination"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Banyuwangi International BMX",
+      "harga": 100000,
+      "is_ready": true,
+      "gambar": "download.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Event"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Banyuwangi Ethno Carnival.",
+      "harga": 75000,
+      "is_ready": true,
+      "gambar": "jk.jpeg",
+      "category": {
+        "id": 2,
+        "nama": "Event"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Dialoog",
+      "harga": 600000,
+      "is_ready": true,
+      "gambar": "dialoog.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Staycation"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Ketapang Indah",
+      "harga": 200000,
+      "is_ready": true,
+      "gambar": "ketapangindah.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Staycation"
+      }
+    }
+  ],
+  "pesanans": [
+    
+  ]
+}
