@@ -15,225 +15,33 @@
   ],
   "products": [
     {
-      "id": 1,
-      "kode": "K-01",
-      "nama": "Djawatan",
-      "harga": 5000,
-      "is_ready": true,
-      "gambar": "djawatan.jpg",
-      "category": {
-        "id": 1,
-        "nama": "Destination"
-      }
-    },
-    {
-      "id": 2,
-      "kode": "K-02",
-      "nama": "Kawah ijen",
-      "harga": 20000,
-      "is_ready": true,
-      "gambar": "kawahijen.jpg",
-      "category": {
-        "id": 1,
-        "nama": "Destination"
-      }
-    },
-    {
-      "id": 3,
-      "kode": "K-03",
-      "nama": "Pantai Boom",
-      "harga": 10000,
-      "is_ready": true,
-      "gambar": "pantaiboom.jpg",
-      "category": {
-        "id": 1,
-        "nama": "Destination"
-      }
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Pulau Merah",
+      "harga": 15000,
+      "gambar": "pulaumerah.jpg"
     },
     {
       "id": 4,
       "kode": "K-04",
       "nama": "Pulau Merah",
       "harga": 15000,
-      "is_ready": true,
-      "gambar": "pulaumerah.jpg",
-      "category": {
-        "id": 1,
-        "nama": "Destination"
-      }
+      "gambar": "pulaumerah.jpg"
     },
     {
-      "id": 5,
-      "kode": "K-05",
-      "nama": "Watu Dodol",
-      "harga": 5000,
-      "is_ready": true,
-      "gambar": "watudodol.jpeg",
-      "category": {
-        "id": 1,
-        "nama": "Destination"
-      }
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Pulau Merah",
+      "harga": 15000,
+      "gambar": "pulaumerah.jpg"
     },
     {
-      "id": 6,
-      "kode": "K-06",
-      "nama": "Banyuwangi International BMX",
-      "harga": 100000,
-      "is_ready": true,
-      "gambar": "download.jpg",
-      "category": {
-        "id": 2,
-        "nama": "Event"
-      }
-    },
-    {
-      "id": 7,
-      "kode": "K-07",
-      "nama": "Banyuwangi Ethno Carnival.",
-      "harga": 75000,
-      "is_ready": true,
-      "gambar": "jk.jpeg",
-      "category": {
-        "id": 2,
-        "nama": "Event"
-      }
-    },
-    {
-      "id": 8,
-      "kode": "K-08",
-      "nama": "Dialoog",
-      "harga": 600000,
-      "is_ready": true,
-      "gambar": "dialoog.jpg",
-      "category": {
-        "id": 3,
-        "nama": "Staycation"
-      }
-    },
-    {
-      "id": 9,
-      "kode": "K-09",
-      "nama": "Ketapang Indah",
-      "harga": 200000,
-      "is_ready": true,
-      "gambar": "ketapangindah.jpg",
-      "category": {
-        "id": 3,
-        "nama": "Staycation"
-      }
-    },
-    {
-      "id": 10,
-      "kode": "K-10",
-      "nama": "Pantai Wedi ireng",
-      "harga": 10000,
-      "is_ready": true,
-      "gambar": "wediireng.jpg",
-      "category": {
-        "id": 1,
-        "nama": "Destination"
+      "id": 1649677310221,
+      "kode": "asdsad",
+      "nama": "asdasd",
+      "harga": "1200000",
+      "gambar": "pulaumerah.jpg"
     }
-  },
-  {
-  "id": 11,
-  "kode": "K-11",
-  "nama": "Bangsring Underwater",
-  "harga": 10000,
-  "is_ready": true,
-  "gambar": "bangsring.jpg",
-  "category": {
-    "id": 1,
-    "nama": "Destination"
-  }
-},
-{
-  "id": 12,
-  "kode": "K-12",
-  "nama": "Tour De ijen.",
-  "harga": 0,
-  "is_ready": true,
-  "gambar": "tourdeijen.jpg",
-  "category": {
-    "id": 2,
-    "nama": "Event"
-  }
-},
-{
-  "id": 13,
-  "kode": "K-13",
-  "nama": "Kebo-Keboan",
-  "harga": 0,
-  "is_ready": true,
-  "gambar": "kebo.jpg",
-  "category": {
-    "id": 2,
-    "nama": "Event"
-}
-},
-{
-  "id": 14,
-  "kode": "K-14",
-  "nama": "Ganndrung Sewu",
-  "harga": 0,
-  "is_ready": true,
-  "gambar": "gs.jpg",
-  "category": {
-    "id": 2,
-    "nama": "Event"
-}
-},
-{
-  "id": 15,
-  "kode": "K-15",
-  "nama": "Ijen Summer Jazz",
-  "harga": 0,
-  "is_ready": true,
-  "gambar": "sj.jpg",
-  "category": {
-    "id": 2,
-    "nama": "Event"
-}
-},
-{
-  "id": 16,
-  "kode": "K-16",
-  "nama": "villa solong",
-  "harga": 850000,
-  "is_ready": true,
-  "gambar": "sl.jpg",
-  "category": {
-    "id": 3,
-    "nama": "Staycation"
-  }
-},
-{
-  "id": 17,
-  "kode": "K-17",
-  "nama": "Aston",
-  "harga": 800000,
-  "is_ready": true,
-  "gambar": "as.jpg",
-  "category": {
-    "id": 3,
-    "nama": "Staycation"
-  }
-},
-{
-  "id": 18,
-  "kode": "K-18",
-  "nama": "Kokoon",
-  "harga": 850000,
-  "is_ready": true,
-  "gambar": "kk.jpg",
-  "category": {
-    "id": 3,
-    "nama": "Staycation"
-  }
-}
-
-
   ],
-  "pesanans": [
-    
-  ]
+  "pesanans": []
 }
