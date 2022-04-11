@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import { Row, Col, Container, Button } from "react-bootstrap";
 
 class AddPost extends Component {
-
     state = {
-        menus: [],
         addData: {
             id: 1,
             kode: "",
@@ -13,7 +11,6 @@ class AddPost extends Component {
             gambar: "pulaumerah.jpg"
         }
     }
-
     handleTambah = (event) => {
         let formInsert = { ...this.state.addData };
         let timestamp = new Date().getTime();
@@ -24,9 +21,8 @@ class AddPost extends Component {
             addData: formInsert
         });
     }
-
     handleSimpan = () => {
-        fetch(`http://localhost:3000/products/`, {
+        fetch(`http://localhost:3001/products/`, {
             method: 'post',
             headers: {
                 'Accept': 'application/json',
@@ -38,7 +34,6 @@ class AddPost extends Component {
                 alert("Data tersimpan!")
             )
     }
-
     render() {
         return (
             <div>

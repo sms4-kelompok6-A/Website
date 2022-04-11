@@ -5,21 +5,33 @@ import {
   Route,
 } from "react-router-dom";
 import { NavbarComponent } from './components'
-import {Home} from './pages'
+import Home from './pages/Home'
 import AddPost from './pages/addPost'
+import Login from './pages/loginAdmin'
+import { ProvideAuth } from './auth/auth';
+import { RequireAuth } from './auth/requireAuth';
 
 export default class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <ProvideAuth>
+        <BrowserRouter>
           <NavbarComponent />
           <main>
             <Switch>
-              <Route  path="/" component={Home} exact/>
-              <Route  path="/addPost" component={AddPost} exact/>
+            <Route exact path="/">
+                <RequireAuth><Home/></RequireAuth>
+              </Route>
+              <Route exact path="/addPost">
+              <RequireAuth><AddPost/></RequireAuth>
+              </Route>
+              <Route exact path="/login">
+                <Login/>
+              </Route>
             </Switch>
           </main>
-      </BrowserRouter>
+        </BrowserRouter>
+      </ProvideAuth>
     )
   }
 }

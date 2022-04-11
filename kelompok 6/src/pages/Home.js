@@ -11,10 +11,9 @@ export default class Home extends Component {
       menus: []
     };
   }
-
   //Mengambil data produkdariapi
   fetchData = () => {
-    fetch(`http://localhost:3000/products/`)
+    fetch(`http://localhost:3001/products/`)
       .then(response => response.json())
       .then(json => {
         this.setState({
@@ -22,19 +21,16 @@ export default class Home extends Component {
         })
       })
   }
-
   componentDidMount() {
     this.fetchData()
   }
-
   handleDelete = (id) => {
-    fetch(`http://localhost:3000/products/${id}`,
+    fetch(`http://localhost:3001/products/${id}`,
       { method: 'DELETE' })
       .then(res => {
         this.fetchData()
       })
   }
-
   render() {
     const { menus } = this.state;
     return (
