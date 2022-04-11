@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:url('pantai.JPG');
+  background-size: cover;
+  
+
+}
+
+h4 { color: white; }
+
+.navbar {
+  background-color: #009D3A;
+}
+
+.category-aktif {
+  background-color: #009D3A;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #009D3A;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 650px;
+  }
+  
+  .menu {
+    height: 800px;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
