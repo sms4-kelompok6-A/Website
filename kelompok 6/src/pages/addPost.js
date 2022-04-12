@@ -39,16 +39,16 @@ class AddPost extends Component {
             <div>
                 <form>
                     <div className="mb-3">
-                        <label className="form-label">Kode :</label>
-                        <input type="text" name="kode" id='kode' placeholder="Kode..." onChange={this.handleTambah} />
+                        <label className="form-label"></label><br/>
+                        <input type="text" name="kode" id='kode' placeholder="Masukkan kode" onChange={this.handleTambah} />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label">Nama :</label>
-                        <input type="text" name="nama" id='nama' placeholder="Nama..." onChange={this.handleTambah} />
+                        <label className="form-label"></label><br/>
+                        <input type="text" name="nama" id='nama' placeholder="Masukkan nama destinasi" onChange={this.handleTambah} />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label">Harga :</label>
-                        <input type="number" name="harga" id='harga' placeholder="Harga..." onChange={this.handleTambah} />
+                        <label className="form-label"></label><br/>
+                        <input type="number" name="harga" id='harga' placeholder="Masukkan harga tiket" onChange={this.handleTambah} />
                     </div>
                     <div className="mb-3">
                         <Button type="submit" onClick={this.handleSimpan}>Simpan</Button>
