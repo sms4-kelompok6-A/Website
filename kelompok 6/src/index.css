@@ -9,7 +9,12 @@ body {
 
 }
 
+h3 {
+  font-family: 'Public Sans' , sans-serif;
+  text-align: center;}
 h4 { color: white; }
+
+form {text-align: center;}
 
 .navbar {
   background-color: #009D3A;

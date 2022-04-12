@@ -15,12 +15,12 @@ const NavbarComponent = () => {
   return (
     <Navbar variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand><strong>Majestic</strong> Banyuwangi</Navbar.Brand>
+        <Navbar.Brand ><strong>Majestic</strong> Banyuwangi</Navbar.Brand>
       </Container>
       {
         auth.user && 
           <Button className="btn btn-danger"
-            onClick={handleLogout}>logout</Button>
+            onClick={handleLogout}>Keluar</Button>
         
       }
     </Navbar>
